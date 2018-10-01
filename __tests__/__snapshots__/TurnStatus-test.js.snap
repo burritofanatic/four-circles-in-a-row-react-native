@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "white",
+      "fontSize": 40,
+      "transform": Array [
+        Object {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+>
+  Tied!
+</Text>
+`;

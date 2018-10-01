@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "skyblue",
+      "flex": 1,
+      "flexDirection": "column",
+      "height": 1334,
+      "position": "absolute",
+      "width": 750,
+      "zIndex": 1000,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 50,
+        "fontWeight": "bold",
+        "justifyContent": "center",
+        "top": 266.8,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+  >
+    Four Circles
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 50,
+        "fontWeight": "bold",
+        "justifyContent": "center",
+        "top": 266.8,
+        "transform": Array [
+          Object {
+            "scaleX": 1,
+          },
+          Object {
+            "scaleY": 1,
+          },
+        ],
+      }
+    }
+  >
+    In a Row!
+  </Text>
+  <RNSpinkit
+    color={4294967295}
+    size={80}
+    style={
+      Array [
+        Object {
+          "height": 80,
+          "width": 80,
+        },
+        Object {
+          "top": 333.5,
+        },
+      ]
+    }
+    type="9CubeGrid"
+  />
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "opacity": 0,
+        "textAlign": "center",
+        "top": 444.6666666666667,
+        "transform": Array [
+          Object {
+            "translateX": 200,
+          },
+          Object {
+            "skewX": "-30deg",
+          },
+        ],
+        "width": 600,
+      }
+    }
+  >
+    We found you a seat, and are waiting for someone to join.
+  </Text>
+</View>
+`;

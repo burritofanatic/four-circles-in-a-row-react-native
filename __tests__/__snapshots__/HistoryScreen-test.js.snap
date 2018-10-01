@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <RCTScrollView
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    style={
+      Object {
+        "backgroundColor": "black",
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  >
+    <RCTRefreshControl />
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginTop": 20,
+                "padding": 40,
+              },
+              Object {
+                "color": "white",
+                "fontSize": 18,
+              },
+            ]
+          }
+        >
+          You have no history of games. You can also try pulling to refresh this screen.
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 100,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

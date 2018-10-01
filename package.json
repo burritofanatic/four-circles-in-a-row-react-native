@@ -1,0 +1,32 @@
+{
+  "name": "connectFourReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "react": "16.5.0",
+    "react-mixin": "^2.0.2",
+    "react-native": "0.57.0",
+    "react-native-animatable": "^1.3.0",
+    "react-native-spinkit": "^1.1.1",
+    "react-navigation": "^2.16.0",
+    "react-timer-mixin": "^0.13.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "^23.6.0",
+    "metro-react-native-babel-preset": "0.45.3",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "/Users/williamha/Documents/Projects/connectFourReactNative/node_modules/react-native/jest/preprocessor.js"
+    }
+  }
+}

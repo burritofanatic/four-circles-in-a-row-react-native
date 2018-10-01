@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "flexDirection": "row",
+        "opacity": 0.5,
+        "position": "absolute",
+        "top": 0,
+        "width": 85.71428571428571,
+        "zIndex": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        undefined,
+        Object {
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "flexDirection": "row",
+          "opacity": 0.5,
+          "position": "absolute",
+          "top": 0,
+          "width": 85.71428571428571,
+          "zIndex": 10,
+        },
+      ]
+    }
+  />
+</View>
+`;
